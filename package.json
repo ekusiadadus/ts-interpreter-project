@@ -1,0 +1,14 @@
+{
+  "name": "ts-interpreter-project",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "bun test packages/*/tests/**/*.test.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
