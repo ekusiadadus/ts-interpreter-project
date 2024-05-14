@@ -29,10 +29,10 @@ export enum TokenType {
 }
 
 export class Token {
-  constructor(public kind: TokenType, public literal: string) {}
+  constructor(public type: TokenType, public literal: string) {}
 
   toString(): string {
-    return `Token(${this.kind}, "${this.literal}")`
+    return `Token(${this.type}, "${this.literal}")`
   }
 }
 
